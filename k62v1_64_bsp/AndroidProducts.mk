@@ -1,0 +1,10 @@
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_k62v1_64_bsp.mk \
+                     $(LOCAL_DIR)/vnd_k62v1_64_bsp.mk
+
+COMMON_LUNCH_CHOICES:=\
+    full_k62v1_64_bsp-eng \
+    full_k62v1_64_bsp-userdebug \
+    full_k62v1_64_bsp-user \
+    vnd_k62v1_64_bsp-eng \
+    vnd_k62v1_64_bsp-userdebug \
+    vnd_k62v1_64_bsp-user
